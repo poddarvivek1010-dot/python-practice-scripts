@@ -1,10 +1,10 @@
-# Day 2: Employee Profile Verifier - using String Slicing & Parsing
+#Employee Profile Verifier - using String Slicing & Parsing
 
 employee_email = "srkshotout100@git.in"
 employee_messy_name = "  shARukH khAN  "
 secret_code = "BWD-2026-SRK"
 
-# parsing username using index slicing
+#parsing username using index slicing
 
 position = employee_email.find("@")
 username = employee_email[:position]
