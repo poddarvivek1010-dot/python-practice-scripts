@@ -1,6 +1,6 @@
 # Bill Splitter - round function
 
-um_of_friends = 4
+num_of_friends = 4
 total_running = 0.0
 
 # Adding up all the costs
