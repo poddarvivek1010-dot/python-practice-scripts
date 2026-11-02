@@ -26,9 +26,9 @@ def use_item(item_name, current_stock, count_to_use):
 check_kitchen_stock()
 
 # Simulating cooking consumption updates
-available_milk = use_item("Milk_packets", available_milk_packets, 3)
-available_flour = use_item("Flour_packets", available_flour_packets, 1)
-available_sugar = use_item("Sugar_packets", available_sugar_packets, 1)
+available_milk_packets = use_item("Milk_packets", available_milk_packets, 3)
+available_flour_packets = use_item("Flour_packets", available_flour_packets, 1)
+available_sugar_packets = use_item("Sugar_packets", available_sugar_packets, 1)
 
 # Verifying updated inventory status
 check_kitchen_stock()
