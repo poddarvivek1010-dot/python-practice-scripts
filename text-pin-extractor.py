@@ -31,8 +31,8 @@ message_2 = "Coding is interesting but complex as well\nLoops help me to process
 
 my_test_list = [message_1, message_2]
 
-print("Running Code Extractor")
 results = find_secret_codes(my_test_list)
+print(f"Running Code Extractor....\nThe overall result is: {results}")
 
 print(f"Secret PIN for first text: {results[0]}")
 print(f"Secret PIN for second text: {results[1]}")
