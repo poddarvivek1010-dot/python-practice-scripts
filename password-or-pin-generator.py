@@ -3,13 +3,13 @@ import random
 import string
 
 
-def generate_password(length=12):
-  if length < 7:
-    return "password length must be at least 7 characters."
+def generate_password(length=13):
+  if length < 6:
+    return "password length must be at least 6 characters."
 
   letters = string.ascii_letters
   digits = string.digits
-  symbols = "!@$%*^*#"
+  symbols = "!@%$*^*#"
   all_chars = letters + digits + symbols
 
   # Ensure at least one letter, one digit, and one symbol...
